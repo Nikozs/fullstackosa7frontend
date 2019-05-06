@@ -1,10 +1,7 @@
 const path = require("path");
 var OpenBrowserPlugin = require("open-browser-webpack-plugin");
 const webpack = require("webpack");
-/*
-		devServer: {
-      historyApiFallback: true,
-*/
+
 const config = (env, argv) => {
 	console.log("argv", argv.mode);
 
