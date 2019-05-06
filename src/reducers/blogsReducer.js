@@ -1,6 +1,5 @@
 import blogsService from "../services/blogs";
 
-
 const blogReducer = (store = [], action) => {
 
 	if (action.type === "CREATE") {
