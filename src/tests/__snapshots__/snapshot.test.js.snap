@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogForm component matches the snapshot 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <h2>
+      Create a new blog
+    </h2>
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <label
+        className="form-label"
+      >
+        Title: 
+      </label>
+      <input
+        className="form-control"
+        name="newTitle"
+        onChange={[Function]}
+      />
+      <label
+        className="form-label"
+      >
+        Blog text:
+      </label>
+      <input
+        className="form-control"
+        name="newBlog"
+        onChange={[Function]}
+      />
+      <label
+        className="form-label"
+      >
+        Author:
+      </label>
+      <input
+        className="form-control"
+        name="newAuthor"
+        onChange={[Function]}
+      />
+      <label
+        className="form-label"
+      >
+        URL-link:
+      </label>
+      <input
+        className="form-control"
+        name="newUrl"
+        onChange={[Function]}
+      />
+      <br />
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        type="submit"
+      >
+        Save
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`render test renders correctly 1`] = `
+<a
+  href="/http://localhost:3000/"
+  onClick={[Function]}
+>
+  Blog app
+</a>
+`;

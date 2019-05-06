@@ -1,0 +1,61 @@
+{
+  "name": "lh5-bloglist",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "prop-types": "^15.7.2",
+    "puppeteer": "^1.14.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.8",
+    "react-test-renderer": "^16.8.6",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production",
+    "test": "react-scripts test --verbose",
+    "flow": "flow",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.4",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^24.7.1",
+    "babel-loader": "^8.0.5",
+    "babel-preset-flow": "^6.23.0",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "flow-bin": "^0.98.0",
+    "flow-typed": "^2.5.1",
+    "jest-puppeteer": "^4.1.1",
+    "open-browser-webpack-plugin": "0.0.5",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
