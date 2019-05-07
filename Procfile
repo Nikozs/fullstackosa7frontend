@@ -1,1 +1,1 @@
-web: npm start
+web: node build/main.js --config webpack.config.js
