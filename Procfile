@@ -1,1 +1,0 @@
-web: node build/main.js --config webpack.config.js
